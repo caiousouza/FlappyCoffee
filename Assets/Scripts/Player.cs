@@ -8,7 +8,9 @@ public class NewBehaviourScript : MonoBehaviour
     public float gravity = -9.8f;
     public float force = 5f;
 
-    privete void Update()
+
+
+    private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)){
             direction = Vector3.up * force;
